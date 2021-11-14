@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+header {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(18, 10, 51);
+    position: sticky;
+    top: 0
+}
+
+h1 {
+    font-family: 'Estonia', cursive;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    font-size: 72px;
+    
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+main {
+    font-family: 'Roboto', sans-serif;
+    background-image:url(/Santo_André_-_SP_\(10661303303\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+#video {
+    text-align: center;
+    padding: 30px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    margin: 20px  
+}
+
+ul {
+    text-align: left;
+    background-color: rgb(18, 10, 51);
+    padding-bottom: 15px;
+}
+
+li {
+    color: white;
+    
+}
+
+footer {
+    background-color: rgb(7, 4, 26) ;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    padding-top: 10px
+}

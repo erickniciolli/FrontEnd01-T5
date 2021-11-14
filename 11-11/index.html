@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <h1>Formulário de teste</h1>
+    
+    <form action="/registro" method="POST">
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        
+        <div>
+            <label for="nome">Nome completo:</label>
+            <input type="text" name="nome" id="nome" placeholder="Insira o nome">
+        </div>
+        
+        
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" name="E-mail" id="email" placeholder="Insira o e-mail"> 
+        </div>
+        
+            
+                      
+        <div>
+            <label for="ra">Insira o RA:</label>
+            <input type="text" name="RA" id="RA" placeholder="Insira o RA sem hífen">
+        </div>
+        
+    </fieldset>
+
+    <fieldset>
+        <legend>Curso</legend>
+        <div>
+            <label for="curso">Escolha o curso:</label>
+        <select name="curso" id="curso">
+        <option value="nada"> </option>
+        <option value="mec">Engenharia Mecânica</option>
+        <option value="civ">Engenharia Civil</option>
+        <option value="prod">Engenharia de Produção</option>
+        <option value="elet">Engenharia Elétrica</option>
+        <option value="mat">Engenharia de Materiais</option>
+        <option value="qui">Engenharia Química</option>
+        </select>
+        </div>
+        <div>
+            <label for="semestre">Escolha o semestre:</label>
+            <input type="number" name="semestre" id="semestre">
+        </div>
+    </fieldset>
+    
+    <fieldset>
+        <label for="consideracoes">Considerações:</label>
+        <textarea name="consideracoes" id="consideracoes" cols="80" rows="10" placeholder="Para elogios ou pontos a melhorar..."></textarea>
+    </fieldset>
+
+    <div id="botões">
+        <button type="submit">Enviar</button>
+        <button type="reset">Recomeçar</button>
+    </div>
+
+    
+    
+
+
+
+</form>
+
+
+
+</body>
+</html>
+
+
