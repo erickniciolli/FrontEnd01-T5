@@ -27,7 +27,7 @@ h1 {
     
 }
 
-h2{
+h2, #resumo {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: white;
