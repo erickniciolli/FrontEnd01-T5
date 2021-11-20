@@ -36,7 +36,10 @@ h2{
 
 main {
     font-family: 'Roboto', sans-serif;
-    background-image:url(/Santo_André_-_SP_\(10661303303\).jpg);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-image:url('../Santo_André_-_SP_(10661303303).jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
