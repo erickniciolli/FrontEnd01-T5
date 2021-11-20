@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <h1>Sandrinha Doces</h1>
+    
+    <form action="/cadastro" method="POST">
+        <fieldset>
+            <legend>Cadastro</legend>
+            <div>
+                <label for="nome">Nome completo: </label>
+                <input type="text" name="nome" id="nome" placeholder="Insira o nome completo">
+            </div>
+            <div>
+                <label for="DN">Data de nascimento:</label>
+                <input type="date" name="DN" id="DN">
+            </div>
+
+
+
+        </fieldset>
+        <fieldset>
+            <legend>Pedido</legend>
+            <div>
+                <label for="doce">Qual o doce desejado?</label>
+                <div><input type="text" name="doce" id="doce" placeholder="Insira o doce que quiser e nós faremos!"></div>
+            </div>
+            <p>Qual será a cobertura?</p>
+            <div>
+                <div><input type="radio" name="cobertura" id="amargo" value="Chocolate amargo"> <label for="amargo">Chocolate amargo</label></div>
+                <div><input type="radio" name="cobertura" id="leite" value="Chocolate ao leite"> <label for="leite">Chocolate ao leite</label></div>
+                <div><input type="radio" name="cobertura" id="branco" value="Chocolate branco"> <label for="branco">Chocolate branco</label></div>
+            </div>
+            <p>Adicionar frutas?</p>
+            <div>
+                <div><input type="checkbox" name="cobertura" id="banana" value="banana"> <label for="banana">Banana</label></div>
+                <div><input type="checkbox" name="cobertura" id="morango" value="morango"> <label for="morango">Morango</label></div>
+                <div><input type="checkbox" name="cobertura" id="uvaverde" value="uvaverde"> <label for="uvaverde">Uva verde</label></div>
+            </div>
+            <div>
+                <p>Descrição</p>
+                <input type="textarea" name="descricao" id="descricao" cols="100" rows="30" placeholder="Caso tenha preferência de alguma receita específica, insira link. Caso tenha alguma peculiaridade, como não colocar algum ingrediente ou adicionar frutas, informe aqui também">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Forma de pagamento</legend>
+            <label>Forma de pagamento</label>
+            <select>
+                <option value="">Selecione a forma de pagamento</option>
+                <option value="PIX">PIX</option>
+                <option value="CC">Cartão de crédito</option>
+                <option value="trans">Transferência bancária</option>
+                <option value="boleto">Boleto</option>
+            </select>
+        </fieldset>
+
+        <div id="botao"><button type="submit">Enviar</button>
+        <button type="reset">Cancelar</button></div>
+
+    </form>
+    
+</body>
+</html>
