@@ -1,0 +1,52 @@
+
+
+a:link {
+    color:aqua
+}
+
+a:visited {
+    color:black
+}
+
+a:hover {
+    color:blue
+}
+
+a:active {
+    color:cornflowerblue
+}
+
+input:hover {
+    background-color: rgba(128, 128, 128, 0.432);
+}
+
+input:focus {
+    background-color: teal;
+}
+
+li::before {
+    content: "Opções";
+    color:brown
+}
+
+#email2:hover {
+    background-color:brown
+}
+
+li:nth-child(2n) {
+    background-color: bisque;
+}
+
+p::first-letter {
+    color: red;
+    font-size: 100px;
+}
+
+#email2:invalid {
+    background-color:yellow
+}
+
+#email:enabled {
+    background-color: black;
+}
+
