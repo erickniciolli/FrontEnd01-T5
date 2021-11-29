@@ -1,0 +1,29 @@
+.containerCard {
+    margin:20px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.itemCard {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 1%;
+    width: 30%;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+}
+
+.itemCard h3 {
+    align-items: center;
+}
+
+.itemCard p {
+    flex-grow: 1;
+    align-self: flex-end;
+}
+
+.itemCard button {
+    align-self: flex-end;
+}

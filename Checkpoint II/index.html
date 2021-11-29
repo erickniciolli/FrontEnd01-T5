@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint II</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="titulo"><h1>Cadastro Municipal</h1> <img src="../images/bandeira.PNG" alt=""></div>
+    <div class="tudo"><form action="/registro" method="POST">
+        <fieldset class="dadosPessoais">
+            <legend>Dados</legend>
+
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Insira o nome completo" maxlength="100" required>
+            </div>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="E-mail" id="email" placeholder="Insira um e-mail válido"> 
+            </div>
+
+            <div>
+                <label for="tel">Telefone:</label>
+                <input type="number" name="tel" id="tel" placeholder="Insira o tel (incluindo DDD)" required>
+            </div>
+
+            <div>
+                <label for="dn">Data de nascimento:</label>
+                <input type="date" name="dn" id="dn" placeholder="Insira a data de nascimento" required>
+            </div>
+            
+            <div id="maioridade">
+                
+                <input type="radio" name="maioridade" id="maior" value="maior"> <label for="maior">Maior de idade</label>
+                <input type="radio" name="maioridade" id="menor" value="menor"> <label for="menor">Menor de idade</label>
+            </div>
+        </fieldset>
+
+        <fieldset class="fieldinteresse">
+            <legend>Interesses</legend>
+            
+            <div id="interesse">
+                <label for="interesse">Qual o local preferido para lazer?</label>
+                <select name="interesse" id="interesse">
+                    <option value=""></option>
+                    <option value="brunão">Estádio José Bruno Daniel</option>
+                    <option value="pq_central">Parque Central</option>
+                    <option value="shoppings">Shoppings</option>
+                    <option value="teatro">Teatro Municipal</option>
+                    <option value="outros">Outros</option>
+                </select>
+            </div>
+            
+            <p>O que pretende ser em Santo André?</p>
+
+            <div>
+                <div><input type="checkbox" name="interesse" id="turista" value="turista"> <label for="turista">Turista</label></div>
+                <div><input type="checkbox" name="interesse" id="residente" value="residente"> <label for="residente">Residente</label></div>
+                <div><input type="checkbox" name="interesse" id="estudante" value="estudante"> <label for="estudante">Estudante</label></div>
+            </div>
+        </fieldset>
+
+        <div id="botao">
+            <button type="submit">Enviar</button>
+            <button type="reset">Apagar dados</button>
+        </div>   
+    
+    
+    
+    
+    </form></div>
+    
+</body>
+</html>

@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../images/Santo_André_SP.jpg');
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size:cover;
+}
+
+.tudo {
+    padding: 10px;
+    background-image: linear-gradient(rgba(109, 158, 231), rgba(255, 255, 255));
+    border-radius: 5px;
+}
+
+form {
+    width: 540px;
+    text-align: ;
+    
+}
+
+fieldset {
+    padding: 20px;
+    margin: auto;
+    border-radius: 5px;
+    border: black 2px solid               
+}
+
+#botao {
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin:10px;
+    width: 75px;
+    height: 40px;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+}
+
+button[type="submit"] {
+    background-color: rgba(16, 88, 19, 0.418);
+}
+
+button[type="reset"] {
+    background-color:rgba(165, 42, 42, 0.562)
+}
+
+button:hover {
+    transform: scale(1.15)
+}
+
+#nome, #email {
+    width: 270px;
+    transition-timing-function: ease;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+#tel {
+    width: 183px
+}
+
+input:hover {
+    background-color:rgb(219, 215, 215);
+}
+
+
+
+#nome:hover,#email:hover {
+    width: 360px;
+    height: 25px;
+    transition-timing-function: ease;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+
+#tel:hover, #dn:hover {
+    height: 25px;
+}
+
+input {
+    margin: 12px;
+    
+}
+
+#maioridade {
+    margin: 0px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+#maior {
+    margin-right:;
+}
+
+#interesse {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#email:invalid {
+    background-color: rgba(255, 0, 0, 0.623);
+    animation: tremer 0.5s ease
+}
+
+@keyframes tremer {
+
+    0% {transform: translate(5px)}
+    25% {transform: translate(-5px)}
+    50% {transform: translate(5px)}
+    75% {transform: translate(-5px)}
+    100%{transform: translate(5px)}
+}
+
+img {
+    width: 90px;
+    margin-left: 12px;   
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+legend {
+    font-size: 20px;
+}
+
+h1 {
+    color: white
+}
+
+select {
+    width: 300px;
+}

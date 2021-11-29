@@ -1,0 +1,36 @@
+#div1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    animation:teste 4s infinite
+}
+
+@keyframes teste {
+    0% {opacity: 0%}
+    50% {transform: translate(200px); opacity: 100%; }
+    100% {opacity: 50%}
+    
+}
+
+#div1:hover {
+    animation: teste 4s normal;
+    animation-delay: 0.25s;
+    transition-property: ease;
+        
+}
+
+
+#div2 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transform: skew(20deg)
+}
+
+
+#div3 {
+    width: 200px;
+    height: 200px;
+    background-color:green
+}

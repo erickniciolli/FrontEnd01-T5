@@ -1,0 +1,55 @@
+* {
+    background-color:black
+}
+
+h1 {
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.pai {
+    margin:20px;
+    display:flex;
+    width: auto;
+    height:1000px;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.filho {
+    margin: 0px;
+    display:flex;
+    flex-direction: row;
+    background-color: gray;
+}
+
+
+.video1 {
+    background-color: aliceblue;
+    width:200px;
+    height:100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.video2 {
+    background-color: red;
+    width:200px;
+    height:100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.video3 {
+    background-color: green;
+    width:200px;
+    height:100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
