@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <title>Pagina Principal</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container_header">
+        <nav
+          class="
+            navbar navbar-expand-lg 
+            d-flex
+            justify-content-space-between
+          "
+        >
+          <div class="logo d-flex justify-content-start align-items-center">
+            <img class="imgLogo" src="./images/logor.png" />
+            <img class="imgLogo" src="./images/logoe.png" />
+            <img class="imgLogo" src="./images/logom.png" />
+            <div class="textoLogo">BEBIDAS</div>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Alterna navegação"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <!--COLOQUEI UM JUSTIFICAR PRO FINAL-->
+            <div class="navbar-nav d-flex align-items-center">
+              <a class="nav-item nav-link active" href="./index.html"
+                >Home <span class="sr-only">(Página atual)</span></a
+              >
+              <a class="nav-item nav-link " href="#">Itens</a>
+              <a class="nav-item nav-link" href="#">Sobre nós</a>
+              <div class="loginEimagem"><a class="nav-item nav-link" id="login" href="./cadastro.html">Login</a>
+              <a href="./cadastro.html"><img class="imagemDeLogin" src="./images/login1.png" alt="login"></a></div>
+              
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container-fluid" id="main_Banner">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="./images/img1.jpg"
+              alt="Primeiro Slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Grande variedade de vinhos</h5>
+              <p>Experimente os vinhos mais incríveis ao redor do mundo</p>
+            </div>
+          </div>
+          
+
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="./images/img3.jpg"
+              alt="Segundo Slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Controle de estoque</h5>
+              <p>Nossas instalações têm temperatura e umidade específicas para uma boa fermentação</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="./images/img4.jpg"
+              alt="Terceiro Slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Plantação de qualidade</h5>
+              <p>As videiras são cuidadas sem utilização de agrotóxicos em uma região propícia para a plantação</p>
+            </div>
+          </div>
+          
+
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    </div>
+
+    <div id="itens">
+      <div class="container ms-5 p-5">
+        <h1>Itens</h1>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="card">
+              <img
+                class="card-img-top img-fluid"
+                src="./images/slide1.jpg"
+                alt="Imagem de capa do card"
+              />
+              <div class="card-block">
+                <h5 class="card-title">Título do card</h5>
+                <p class="card-text">
+                  Um exemplo de texto rápido para construir o título do card e
+                  fazer preencher o conteúdo do card.
+                </p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="card">
+              <img
+                class="card-img-top img-fluid"
+                src="./images/slide1.jpg"
+                alt="Imagem de capa do card"
+              />
+              <div class="card-block">
+                <h5 class="card-title">Título do card</h5>
+                <p class="card-text">
+                  Um exemplo de texto rápido para construir o título do card e
+                  fazer preencher o conteúdo do card.
+                </p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="card">
+              <img
+                class="card-img-top img-fluid"
+                src="./images/slide1.jpg"
+                alt="Imagem de capa do card"
+              />
+              <div class="card-block">
+                <h5 class="card-title">Título do card</h5>
+                <p class="card-text">
+                  Um exemplo de texto rápido para construir o título do card e
+                  fazer preencher o conteúdo do card.
+                </p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="card">
+              <img
+                class="card-img-top img-fluid"
+                src="./images/slide1.jpg"
+                alt="Imagem de capa do card"
+              />
+              <div class="card-block">
+                <h5 class="card-title">Título do card</h5>
+                <p class="card-text">
+                  Um exemplo de texto rápido para construir o título do card e
+                  fazer preencher o conteúdo do card.
+                </p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="card">
+              <img
+                class="card-img-top img-fluid"
+                src="./images/slide1.jpg"
+                alt="Imagem de capa do card"
+              />
+              <div class="card-block">
+                <h5 class="card-title">Título do card</h5>
+                <p class="card-text">
+                  Um exemplo de texto rápido para construir o título do card e
+                  fazer preencher o conteúdo do card.
+                </p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="card">
+              <img
+                class="card-img-top img-fluid"
+                src="./images/slide1.jpg"
+                alt="Imagem de capa do card"
+              />
+              <div class="card-block">
+                <h5 class="card-title">Título do card</h5>
+                <p class="card-text">
+                  Um exemplo de texto rápido para construir o título do card e
+                  fazer preencher o conteúdo do card.
+                </p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="containerAluno">
+        <div class="cardAluno">
+          <div class="card-body">
+            <h5 class="card-title">Erick Niciolli</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Desenvolveu X item</h6>
+            <div><a href="#" class="card-link">github.com/erickniciolli</a></div>
+            <a href="#" class="card-link">linkedin.com/in/erick-niciolli/</a>
+          </div>
+        </div>
+        <div class="cardAluno">
+          <div class="card-body">
+            <h5 class="card-title">Nome Aluno</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Desenvolveu X item</h6>
+            <div><a href="#" class="card-link">git</a></div>
+            <a href="#" class="card-link">linkedin</a>
+          </div>
+        </div>
+        <div class="cardAluno">
+          <div class="card-body">
+            <h5 class="card-title">Nome Aluno</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Desenvolveu X item</h6>
+            <div><a href="#" class="card-link">git</a></div>
+            <a href="#" class="card-link">linkedin</a>
+          </div>
+        </div>
+      </div>
+      <h5 class="anoRealizacao">Desenvolvido em dezembro de 2021</h5>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Righteous&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+/* AREA HEADER + NAV */ /* AREA HEADER + NAV */
+header {
+  position: sticky;
+  top: 0.1px;
+  z-index: 1;
+  width: 100%;
+  background-color: rgb(156, 45, 45);
+}
+
+
+
+
+/*
+  background-image: linear-gradient(
+    130deg,
+    #0a0a0a 0%,
+    #ca690e 15%,
+    #5daf19 30%,
+    #2bd6ab 45%,
+    #1f5bca 60%,
+    #c81efc 75%,
+    #c9c7c7 100%
+  );
+}*/
+
+.nav-item {
+  height: 10vh;
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  font-family: 'Righteous', 'cursive';
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-right: 15px;
+}
+
+
+.imgLogo {
+  width: 25px;
+  height: 25px;
+  margin: 1%;
+}
+
+.imagemDeLogin {
+  width: 25px;
+  height: 25px;
+  margin: 1%;
+  margin-right: 15px
+  
+}
+
+.login {
+    height: 10px
+}
+
+.loginEimagem {
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  gap: 0px
+}
+
+#login {
+  margin-right: 3px;
+}
+
+.textoLogo {
+  font-size: 1.75rem;
+  letter-spacing: 0.1rem;
+  font-family: 'Righteous', 'cursive';
+  font-style: italic;
+  color: rgb(255, 255, 255);
+  margin: 1%;
+  padding-left: 8px;
+}
+
+.navbar-nav {
+  font-size: 1.25rem;
+  font-family: 'Righteous', 'cursive';
+}
+
+.navbar-toggler {
+  border: 1px solid black;
+  background-image: url("../images/menu.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+/* AREA HEADER + NAV */ /* AREA HEADER + NAV */
+
+/* AREA MAIN - BANNER */ /* AREA MAIN - BANNER */
+img {
+  height: auto;
+  margin: 2%;
+}
+
+#main_Banner {
+  background-image: linear-gradient(
+    80deg,
+    #6c52d9 0%,
+    #1eaafc 85%,
+    #3edfd7 100%
+  );
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 0%;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#carouselExampleIndicators {
+  width: 100%;
+  padding-right: 2%;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* AREA MAIN - BANNER */ /* AREA MAIN - BANNER */
+
+/* AREA DOS 6 ITENS */ /* AREA DOS 6 ITENS */
+.container .ms-5 .p-5 {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  padding: 1%;
+  border: 1px solid #0e78cf;
+  margin: 1%;
+  box-shadow: 1px 1px 1px 2px #67c8e6;
+  margin-bottom: 1.5rem;
+}
+
+.card-img-top {
+  padding: 1%;
+  margin: 0;
+}
+
+.p-5 {
+  padding: 0.1rem !important;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.containerAluno {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around
+}
+
+.cardAluno {
+    text-align: center;
+}
+
+.anoRealizacao {
+    text-align:center;
+    padding-bottom: 15px;
+}
+
+.card:hover {
+    transform:scale(1.08);
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+@media(max-width:541px) {
+  .containerAluno {
+    display:flex;
+    flex-direction:column
+  }
+
+  .card {
+    margin:5%
+  }
+
+  #itens {
+    text-align: center;
+  }
+
+  
+}
+
+.itens {
+    background-image: url("../images/img2.jpeg");
+    background-size: cover;
+}
+/* AREA DOS 6 ITENS */ /* AREA DOS 6 ITENS */
+
+/* AREA FOOTER */ /* AREA FOOTER */ /* AREA FOOTER */
+
+/* AREA FOOTER */ /* AREA FOOTER */ /* AREA FOOTER */
+
+/*
+.carousel {
+  margin: 1%;
+}
+
+.container_itens {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.card {
+  margin: 1%;
+}
+*/
