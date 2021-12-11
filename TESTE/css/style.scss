@@ -1,0 +1,9 @@
+@import '_headerfooter';
+
+footer {
+    @include footer
+}
+
+header {
+    @include header
+}
